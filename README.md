@@ -73,6 +73,14 @@ Three linear regression models were developed and evaluated to assess predictive
 - The extended model explains approximately **65% of the variance** in house prices, making it a strong baseline model.
 
 ## Results & Visualization
+
+### Actual vs Predicted Prices (Extended Model)
+
+The scatter plot below compares actual house prices with predicted prices from the extended linear regression model.  
+The red line represents the ideal scenario where predicted prices exactly match actual prices.
+
+![Actual vs Predicted Prices](results/actual_vs_predicted.png)
+
 - Predicted prices generally follow the trend of actual prices
 - The model performs well for mid-range prices
 - Reduced accuracy observed at higher price points, indicating increased variability
