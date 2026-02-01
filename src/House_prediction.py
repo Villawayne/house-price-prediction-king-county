@@ -54,7 +54,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # In[9]:
 
 
-df = pd.read_csv('houseprice_data.csv')
+df = pd.read_csv('data/houseprice_data.csv')
 
 
 # # Displaying the first few rows of the dataset
