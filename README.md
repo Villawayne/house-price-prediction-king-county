@@ -49,6 +49,29 @@ Target variable:
   - R-squared (R²)
 - Cross-validation used to assess robustness and generalization
 
+## Results & Model Performance
+
+Three linear regression models were developed and evaluated to assess predictive performance.
+
+### Model Comparison
+- **Simple Linear Regression (sqft_living only)**
+  - R² ≈ **0.49**
+  - Indicates a moderate relationship between living area and house price.
+
+- **Multiple Linear Regression**
+  - R² ≈ **0.61**
+  - Including additional structural features significantly improves prediction accuracy.
+
+- **Extended Linear Regression**
+  - R² ≈ **0.65**
+  - Cross-validation mean R² ≈ **0.65**
+  - Incorporating location and time-based features provides the strongest performance.
+
+### Key Takeaways
+- The models effectively capture general pricing trends, particularly for mid-range properties.
+- Prediction accuracy decreases for higher-priced homes, suggesting increased variability and potential non-linear effects.
+- The extended model explains approximately **65% of the variance** in house prices, making it a strong baseline model.
+
 ## Results & Visualization
 - Predicted prices generally follow the trend of actual prices
 - The model performs well for mid-range prices
